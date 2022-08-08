@@ -24,3 +24,14 @@ steps:
       # Write your PowerShell commands here.
       
       Write-Host "Hello World"
+      $a = 5 
+      $b = 10 
+      $c = $a + $b 
+      If ($c -gt 10)
+      {
+        Write-Host "Sum of $a, $b is greater than 10"
+      }
+      Else 
+      {
+         Write-Host "Sum of $a, $b is less than 10" 
+      }
