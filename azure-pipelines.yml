@@ -35,3 +35,9 @@ steps:
       {
          Write-Host "Sum of $a, $b is less than 10" 
       }
+      $i = 0 
+      while ($i -lt 10)
+      {
+        $i++
+        Write-Host $i
+      }
