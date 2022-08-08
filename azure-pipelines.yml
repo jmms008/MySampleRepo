@@ -39,5 +39,8 @@ steps:
       while ($i -lt 10)
       {
         $i++
-        Write-Host $i
+        If ($i -lt $b)
+          Write-Host $i less than $b
+        else
+          Write-Host $i greater than $b   
       }
